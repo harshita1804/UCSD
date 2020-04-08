@@ -1,0 +1,25 @@
+def encrypt_message(message,fname):
+   '''
+       Given `message`, which is a lowercase string without any punctuation, and `fname` which is the
+       name of a text file source for the codebook, generate a sequence of 2-tuples that
+       represents the `(line number, word number)` of each word in the message. The output is a list
+       of 2-tuples for the entire message. Repeated words in the message should not have the same 2-tuple. 
+       
+       :param message: message to encrypt
+      :type message: str
+      :param fname: filename for source text
+      :type fname: str
+      :returns: list of 2-tuples
+      '''
+  def decrypt_message(inlist,fname):
+      '''
+      Given `inlist`, which is a list of 2-tuples`fname` which is the
+      name of a text file source for the codebook, return the encrypted message. 
+     
+      :param message: inlist to decrypt
+     :type message: list
+      :param fname: filename for source text
+      :type fname: str
+     :returns: string decrypted message
+ 
+
